@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_x2.mk
+             $(LOCAL_DIR)/superior_x2.mk
+
+COMMON_LUNCH_CHOICES := \
+	superior_x2-eng \
+        superior_x2-user \
+        superior_x2-userdebug
